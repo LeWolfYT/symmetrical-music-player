@@ -16,5 +16,5 @@ setup(
     author_email="ciblox3@gmail.com",
     description="A music player made for Symmetrical OS.",
     options={"build_exe": build_exe},
-    executables=[Executable("symmmusic.py", base=base)],
+    executables=[Executable("smmp.py", base=base)],
 )
