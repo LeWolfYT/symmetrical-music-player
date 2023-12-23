@@ -10,7 +10,7 @@ import os
 class MusicPlayer:
     def __init__(self, root):
         self.root = root
-        self.root.title("Simple Music Player")
+        self.root.title("Symmetrical Music Player")
         self.root.geometry("400x155")
         self.root.resizable(True, False)
 

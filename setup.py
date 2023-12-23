@@ -10,11 +10,11 @@ build_exe = {
 }
 
 setup(
-    name="Simple Music Player",
+    name="Symmetrical Music Player",
     version="1.0",
     author="LeWolfYT",
     author_email="ciblox3@gmail.com",
-    description="A music player made with tkinter.",
+    description="A music player made for Symmetrical OS.",
     options={"build_exe": build_exe},
-    executables=[Executable("tkmusic.py", base=base)],
+    executables=[Executable("symmmusic.py", base=base)],
 )
