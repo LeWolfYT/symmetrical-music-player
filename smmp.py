@@ -84,10 +84,10 @@ class MusicPlayer:
                 self.playing = False
                 self.play_pause.configure(text="⏵")
 
-    def stop_music(self):
-        if self.playing:
-            pygame.mixer.music.stop()
-            self.playing = False
+    #def stop_music(self):
+    #    if self.playing:
+    #        pygame.mixer.music.stop()
+    #        self.playing = False
 
     def set_volume(self, volume):
         pygame.mixer.music.set_volume(float(volume) / 100)
