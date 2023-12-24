@@ -61,9 +61,10 @@ class MusicPlayer:
             self.iconc.place(anchor="e", relx=1, rely=0.5, x=-56, width=128, height=128)
             self.iconc.lower(self.song_label)
         except:
-            self.iconc = tk.Label(self.root, width=128, height=128)
+            self.iconc = tk.Label(self.root, width=128, height=128, image=None)
             self.iconc.place_forget()
             self.iconc.place(anchor="e", relx=1, rely=0.5, x=-56, width=128, height=128)
+            self.iconc.lower(self.song_label)
         if song_name == None:
             song_name = os.path.basename(song_path)
         if song_path:
